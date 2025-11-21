@@ -1,3 +1,4 @@
+import { differenceInSeconds } from 'date-fns'
 import {
   ReactNode,
   createContext,
@@ -5,13 +6,12 @@ import {
   useReducer,
   useState,
 } from 'react'
-import { Cycle, cyclesReducer } from '../reducers/cycles/reducer'
 import {
   addNewCycleAction,
   interruptActiveCycleAction,
   setCycleAsFinishedAction,
 } from '../reducers/cycles/actions'
-import { differenceInSeconds } from 'date-fns'
+import { Cycle, cyclesReducer } from '../reducers/cycles/reducer'
 
 interface CreateCycleData {
   task: string

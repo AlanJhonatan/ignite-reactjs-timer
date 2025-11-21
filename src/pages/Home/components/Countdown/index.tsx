@@ -1,7 +1,7 @@
 import { differenceInSeconds } from 'date-fns'
-import { CountdownContainer, Separator } from './styles'
 import { useContext, useEffect } from 'react'
 import { CyclesContext } from '../../../../contexts/CyclesContext'
+import { CountdownContainer, Separator } from './styles'
 
 export function Countdown() {
   const {
@@ -28,7 +28,7 @@ export function Countdown() {
       return
     }
 
-    document.title = `Ignite Timer`
+    document.title = `Pomodoro Timer`
   }, [minutes, seconds, activeCycle])
 
   useEffect(() => {

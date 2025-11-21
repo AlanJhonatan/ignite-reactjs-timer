@@ -16,7 +16,7 @@ export function addNewCycleAction(newCycle: Cycle) {
 }
 export function setCycleAsFinishedAction() {
   return {
-    type: ActionTypes.ADD_NEW_CYCLE,
+    type: ActionTypes.SET_CYCLE_AS_FINISHED,
   }
 }
 export function interruptActiveCycleAction() {
