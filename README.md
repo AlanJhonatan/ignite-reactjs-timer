@@ -2,6 +2,8 @@
 
 A modern Pomodoro timer application built with React and TypeScript. It facilitates tracking all your timers and projects you've worked on, with persistent history in localStorage.
 
+<img width="1906" height="904" alt="image" src="https://github.com/user-attachments/assets/cbe01422-6c35-4652-b281-157ff99a0eba" />
+
 ---
 
 ## 📋 Project Description
